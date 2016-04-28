@@ -15,5 +15,7 @@ body {
   padding: 50px;
 }
 img {
-  
+  width:50px;
+  left: -500px;
+  position: absolute;
 }
