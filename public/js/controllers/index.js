@@ -16,7 +16,9 @@ angular.module('controllers.index', [])
                 var ctx = element[0].getContext('2d')
                 element.on('mousedown', function(event) {
                     
+                    ctx.pus
                 })
             }
         }
     })
+    .service('')
