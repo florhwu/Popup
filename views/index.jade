@@ -1,4 +1,11 @@
 extends layout
 
 block content
+    canvas(id= "canvas", width='200', height='100', style='border:1px solid black;')
+        | Canvas
+    script(type= 'text/javascript').
+        var c = document.getElementById("canvas").addEventListener("click", function(){
+            alert("Hello World!");
+            //TODO:  get photo
+        });
   
