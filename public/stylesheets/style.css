@@ -5,3 +5,12 @@ body {
 a {
   color: #00b7ff;
 }
+canvas {
+  width: 100%;
+}
+body {
+  padding: 0;
+}
+.header {
+  padding: 50px;
+}
