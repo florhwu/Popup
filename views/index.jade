@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  .header
+    h1.text-center Bob's nightmare
+  div(ng-controller='IndexCtrl as vm')
+    canvas(drawing)
+    img(ng-repeat='image_src in vm.images' ng-src='/img/{{image_src}}')
