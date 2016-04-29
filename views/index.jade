@@ -2,8 +2,10 @@ extends layout
 
 block content
     .header
-        h1.text-center Bob's nightmare
+        img1
+        h1.text-center Bob's Nightmare
+        img2
     div(ng-controller='IndexCtrl as vm')
-        canvas(drawing width='1280' height='640')
+        canvas(drawing width='1280' height='640' id='canvas' style="background: url('http://www.cartoonswallpapers.net/wallpapers/winnie-pooh-wallpaper-lumia.jpg')")
 
 block script

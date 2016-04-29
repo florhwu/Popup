@@ -1,6 +1,6 @@
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 a {
   color: #00b7ff;
@@ -11,11 +11,35 @@ canvas {
 body {
   padding: 0;
 }
+
+@-webkit-keyframes hder {
+  0%   {background-color: #00b7ff; width: 1500px;}
+  25%  {background-color: yellow; width: 1300px;}
+  50%  {background-color: blue; width: 1500px;}
+  75%  {background-color: pink; width: 1300px;}
+  100% {background-color: olivedrab; width: 1500px;}
+}
+
 .header {
   padding: 50px;
+  color: red;
+  background-color: yellow;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 120px;
+  text-shadow: 4px 4px 4px #aaa;
+  -webkit-animation-name: hder; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 30;
 }
+
 img {
   width:50px;
   left: -500px;
   position: absolute;
 }
+
+canvas {
+  background: url(https://wallpapercave.com/wp/PLfMD50.jpg);
+  border: 5px dotted red;
+}
+
