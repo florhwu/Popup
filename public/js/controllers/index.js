@@ -16,13 +16,12 @@ angular.module('controllers.index', [])
             }
         }
     })
-    .controller('DrawingCtrl', function ($scope) {
+    .controller('DrawingCtrl', function ($scope, $timeout) {
         var audio = new Howl({
             urls: ['/beethoven.ogg'],
             autoplay: true,
             loop: true,
-            buffer: true,
-            rate:10.0
+            buffer: true
         })
         audio.play()
         $scope.images = []
