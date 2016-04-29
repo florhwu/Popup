@@ -23,7 +23,6 @@ angular.module('controllers.index', [])
             loop: true,
             buffer: true
         })
-        audio.play()
         $scope.images = []
         for (var i = 1; i <= 20; i++) {
             var name = i.toString()
