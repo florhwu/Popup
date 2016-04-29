@@ -1,7 +1,9 @@
 extends layout
 
 block content
-  .header
-    h1.text-center Bob's nightmare
-  div(ng-controller='IndexCtrl as vm')
-    canvas(drawing width='1280' height='640')
+    .header
+        h1.text-center Bob's nightmare
+    div(ng-controller='IndexCtrl as vm')
+        canvas(drawing width='1280' height='640')
+
+block script
