@@ -32,10 +32,19 @@ body {
   -webkit-animation-iteration-count: 30;
 }
 
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
 img {
-  width:50px;
-  left: -500px;
-  position: absolute;
+  width: 300px;
+  align-items: center;
+  -webkit-animation:spin 4s linear infinite;
+}
+
+p {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: red;
+  font-size: 30px;
 }
 
 canvas {

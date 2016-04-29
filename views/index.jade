@@ -2,10 +2,16 @@ extends layout
 
 block content
     .header
-        img1
         h1.text-center Bob's Nightmare
-        img2
+    div
+        img(src="img/bobface.png")
+        img(src="img/bobface.png")
+        img(src="img/bobface.png")
+        img(src="img/bobface.png")
     div(ng-controller='IndexCtrl as vm')
+        p Click On the Garden of POOH!!!!!!!!
+        p Mom we love you! <3
+        p (Say no to domestic violence)
         canvas(drawing width='1280' height='640' id='canvas' style="background: url('http://www.cartoonswallpapers.net/wallpapers/winnie-pooh-wallpaper-lumia.jpg')")
 
 block script
